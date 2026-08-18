@@ -1,5 +1,5 @@
 services:
-  # 1. React Frontend Static Site
+  # 1. React Frontend Static Site (100% Free - No Credit Card Needed)
   - type: web
     name: ai-medical-report-analyzer-frontend
     env: static
@@ -19,7 +19,7 @@ services:
           prefix: https://
           postfix: /api
 
-  # 2. FastAPI Web Backend
+  # 2. FastAPI Web Backend (100% Free - No Credit Card Needed)
   - type: web
     name: ai-medical-report-analyzer-api
     env: python
@@ -30,61 +30,10 @@ services:
     healthCheckPath: /api/health
     envVars:
       - key: DATABASE_URL
-        fromDatabase:
-          name: medreports-db
-          property: connectionString
-      - key: REDIS_URL
-        fromService:
-          type: redis
-          name: medreports-redis
-          property: connectionString
+        value: sqlite:///./medreports.db
       - key: JWT_SECRET
         generateValue: true
       - key: LLM_PROVIDER
         value: none
-      - key: OPENAI_API_KEY
-        sync: false
-      - key: GEMINI_API_KEY
-        sync: false
       - key: STORAGE_PROVIDER
         value: local
-
-  # 3. Celery Background Worker
-  - type: worker
-    name: ai-medical-report-analyzer-worker
-    env: python
-    region: oregon
-    rootDir: backend
-    buildCommand: pip install -r requirements.txt
-    startCommand: celery -A app.workers.celery_app worker --loglevel=info --concurrency=2
-    envVars:
-      - key: DATABASE_URL
-        fromDatabase:
-          name: medreports-db
-          property: connectionString
-      - key: REDIS_URL
-        fromService:
-          type: redis
-          name: medreports-redis
-          property: connectionString
-      - key: JWT_SECRET
-        fromService:
-          type: web
-          name: ai-medical-report-analyzer-api
-          envVarKey: JWT_SECRET
-
-  # 4. Managed Redis Instance
-  - type: redis
-    name: medreports-redis
-    region: oregon
-    plan: free
-    maxmemoryPolicy: allkeys-lru
-    ipAllowList: []
-
-# 5. Managed PostgreSQL Database
-databases:
-  - name: medreports-db
-    databaseName: medreports
-    user: meduser
-    region: oregon
-    plan: free
