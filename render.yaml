@@ -3,7 +3,6 @@ services:
   - type: web
     name: ai-medical-report-analyzer-frontend
     env: static
-    region: oregon
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
@@ -16,7 +15,8 @@ services:
         fromService:
           type: web
           name: ai-medical-report-analyzer-api
-          property: url
+          property: host
+          prefix: https://
           postfix: /api
 
   # 2. FastAPI Web Backend
