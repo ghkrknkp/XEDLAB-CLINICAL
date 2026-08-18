@@ -1,133 +1,77 @@
-/**
- * AuthContext — localStorage-based auth (no backend required).
- * Users are stored in localStorage so registration & login work instantly.
- * When the backend is available, API calls are attempted first.
- */
-import React, { createContext, useContext, useState, useCallback } from "react";
+import React, { createContext, useContext, useState, useCallback, useEffect } from "react";
+import { auth as authApi } from "./api";
 
 const AuthContext = createContext(null);
 
-const USERS_KEY = "mra_users";
 const TOKEN_KEY = "mra_token";
 const EMAIL_KEY = "mra_email";
-
-// ─── helpers ────────────────────────────────────────────────────────────────
-
-function getUsers() {
-  try {
-    return JSON.parse(localStorage.getItem(USERS_KEY) || "{}");
-  } catch {
-    return {};
-  }
-}
-
-function saveUsers(users) {
-  localStorage.setItem(USERS_KEY, JSON.stringify(users));
-}
-
-function makeToken(email) {
-  // Simple base64 pseudo-token — good enough for local demo
-  const payload = btoa(JSON.stringify({ email, exp: Date.now() + 86400000 }));
-  return `local.${payload}`;
-}
-
-// ─── provider ───────────────────────────────────────────────────────────────
 
 export function AuthProvider({ children }) {
   const [token, setToken] = useState(() => localStorage.getItem(TOKEN_KEY));
   const [email, setEmail] = useState(() => localStorage.getItem(EMAIL_KEY));
+  const [loading, setLoading] = useState(true);
+
+  // Sync token across state & localStorage
+  useEffect(() => {
+    const storedToken = localStorage.getItem(TOKEN_KEY);
+    const storedEmail = localStorage.getItem(EMAIL_KEY);
+    if (storedToken) setToken(storedToken);
+    if (storedEmail) setEmail(storedEmail);
+    setLoading(false);
+  }, []);
 
   const register = useCallback(async (emailInput, password) => {
     const key = emailInput.trim().toLowerCase();
 
-    // Try real backend first (silent fail)
     try {
-      const API = import.meta.env.VITE_API_URL || "http://localhost:8000/api";
-      const resp = await fetch(`${API}/auth/register`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: key, password }),
-      });
-      if (resp.ok) {
-        // Backend registration succeeded — now login
-        const loginResp = await fetch(`${API}/auth/login`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ email: key, password }),
-        });
-        if (loginResp.ok) {
-          const data = await loginResp.json();
-          localStorage.setItem(TOKEN_KEY, data.access_token);
-          localStorage.setItem(EMAIL_KEY, key);
-          setToken(data.access_token);
-          setEmail(key);
-          return;
-        }
-      }
-      // If backend returns 400 "email already exists" — show that error
-      if (resp.status === 400) {
-        const err = await resp.json();
-        throw new Error(err.detail || "Email already registered.");
-      }
-    } catch (e) {
-      // If it's our explicit 400 error, re-throw it
-      if (e.message && e.message.includes("already")) throw e;
-      // Otherwise backend is down — fall through to localStorage
-    }
+      // 1. Call real backend register endpoint
+      await authApi.register(key, password);
 
-    // ── localStorage fallback ──────────────────────────────────────────────
-    const users = getUsers();
-    if (users[key]) {
-      throw new Error("An account with this email already exists. Please sign in.");
-    }
-    users[key] = { password }; // store password for local login (demo only)
-    saveUsers(users);
+      // 2. Automatically log in to get JWT token
+      const loginRes = await authApi.login(key, password);
+      const accessToken = loginRes.data?.access_token;
 
-    const tok = makeToken(key);
-    localStorage.setItem(TOKEN_KEY, tok);
-    localStorage.setItem(EMAIL_KEY, key);
-    setToken(tok);
-    setEmail(key);
+      if (!accessToken) {
+        throw new Error("Authentication failed: No access token returned.");
+      }
+
+      localStorage.setItem(TOKEN_KEY, accessToken);
+      localStorage.setItem(EMAIL_KEY, key);
+      setToken(accessToken);
+      setEmail(key);
+    } catch (err) {
+      console.error("Registration error:", err);
+      const errorMsg =
+        err.response?.data?.detail ||
+        err.message ||
+        "Registration failed. Please check your connection and try again.";
+      throw new Error(errorMsg);
+    }
   }, []);
 
   const login = useCallback(async (emailInput, password) => {
     const key = emailInput.trim().toLowerCase();
 
-    // Try real backend first
     try {
-      const API = import.meta.env.VITE_API_URL || "http://localhost:8000/api";
-      const resp = await fetch(`${API}/auth/login`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: key, password }),
-      });
-      if (resp.ok) {
-        const data = await resp.json();
-        localStorage.setItem(TOKEN_KEY, data.access_token);
-        localStorage.setItem(EMAIL_KEY, key);
-        setToken(data.access_token);
-        setEmail(key);
-        return;
-      }
-      if (resp.status === 401) {
-        throw new Error("Invalid email or password.");
-      }
-    } catch (e) {
-      if (e.message === "Invalid email or password.") throw e;
-      // Backend unavailable — fall through to localStorage
-    }
+      const loginRes = await authApi.login(key, password);
+      const accessToken = loginRes.data?.access_token;
 
-    // ── localStorage fallback ──────────────────────────────────────────────
-    const users = getUsers();
-    if (!users[key] || users[key].password !== password) {
-      throw new Error("Invalid email or password.");
-    }
+      if (!accessToken) {
+        throw new Error("Authentication failed: No access token returned.");
+      }
 
-    const tok = makeToken(key);
-    localStorage.setItem(TOKEN_KEY, tok);
-    localStorage.setItem(EMAIL_KEY, key);
-    setToken(tok);
-    setEmail(key);
+      localStorage.setItem(TOKEN_KEY, accessToken);
+      localStorage.setItem(EMAIL_KEY, key);
+      setToken(accessToken);
+      setEmail(key);
+    } catch (err) {
+      console.error("Login error:", err);
+      const errorMsg =
+        err.response?.data?.detail ||
+        err.message ||
+        "Invalid email or password. Please try again.";
+      throw new Error(errorMsg);
+    }
   }, []);
 
   const logout = useCallback(() => {
@@ -136,6 +80,10 @@ export function AuthProvider({ children }) {
     setToken(null);
     setEmail(null);
   }, []);
+
+  if (loading) {
+    return null;
+  }
 
   return (
     <AuthContext.Provider
