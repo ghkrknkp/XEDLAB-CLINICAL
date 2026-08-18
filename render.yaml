@@ -2,7 +2,7 @@ services:
   # 1. React Frontend Static Site
   - type: web
     name: ai-medical-report-analyzer-frontend
-    runtime: static
+    env: static
     region: oregon
     rootDir: frontend
     buildCommand: npm install && npm run build
@@ -22,7 +22,7 @@ services:
   # 2. FastAPI Web Backend
   - type: web
     name: ai-medical-report-analyzer-api
-    runtime: python
+    env: python
     region: oregon
     rootDir: backend
     buildCommand: pip install -r requirements.txt
@@ -41,7 +41,7 @@ services:
       - key: JWT_SECRET
         generateValue: true
       - key: LLM_PROVIDER
-        value: none # or 'gemini' or 'openai'
+        value: none
       - key: OPENAI_API_KEY
         sync: false
       - key: GEMINI_API_KEY
@@ -52,7 +52,7 @@ services:
   # 3. Celery Background Worker
   - type: worker
     name: ai-medical-report-analyzer-worker
-    runtime: python
+    env: python
     region: oregon
     rootDir: backend
     buildCommand: pip install -r requirements.txt
@@ -73,16 +73,18 @@ services:
           name: ai-medical-report-analyzer-api
           envVarKey: JWT_SECRET
 
-# 4. Managed PostgreSQL Database
+  # 4. Managed Redis Instance
+  - type: redis
+    name: medreports-redis
+    region: oregon
+    plan: free
+    maxmemoryPolicy: allkeys-lru
+    ipAllowList: []
+
+# 5. Managed PostgreSQL Database
 databases:
   - name: medreports-db
     databaseName: medreports
     user: meduser
     region: oregon
     plan: free
-
-# 5. Managed Redis Instance
-  - name: medreports-redis
-    region: oregon
-    plan: free
-    maxmemoryPolicy: allkeys-lru
