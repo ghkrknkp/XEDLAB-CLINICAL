@@ -19,12 +19,14 @@ services:
           prefix: https://
           postfix: /api
 
-  # 2. FastAPI Web Backend (Docker with Tesseract OCR - 100% Free)
+  # 2. FastAPI Web Backend (Native Python 3 - 100% Free)
   - type: web
     name: ai-medical-report-analyzer-api
-    env: docker
+    env: python
     region: oregon
-    dockerfilePath: backend/Dockerfile
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /api/health
     envVars:
       - key: DATABASE_URL
