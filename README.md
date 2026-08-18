@@ -8,14 +8,12 @@
 [![Redis](https://img.shields.io/badge/Queue-Redis_%2B_Celery-DC382D.svg?logo=redis)](https://redis.io)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## 🌐 Live Demo
+## 📹 Video Demo
 
-| Service | URL |
-|---|---|
-| **Frontend (React UI)** | [https://xedlab-clinical-2.onrender.com](https://xedlab-clinical-2.onrender.com) |
-| **Backend API** | [https://xedlab-clinical-1.onrender.com](https://xedlab-clinical-1.onrender.com) |
-| **API Docs (Swagger)** | [https://xedlab-clinical-1.onrender.com/docs](https://xedlab-clinical-1.onrender.com/docs) |
-| **Health Check** | [https://xedlab-clinical-1.onrender.com/api/health](https://xedlab-clinical-1.onrender.com/api/health) |
+[![Watch Demo Video](https://img.shields.io/badge/Loom-Watch_Demo_Video-5551FF?logo=loom&logoColor=white)](https://www.loom.com/share/119bde0e1db44b67a0cfcd605f14e7f8)
+
+- 🔗 **Loom Video Walkthrough:** [https://www.loom.com/share/119bde0e1db44b67a0cfcd605f14e7f8](https://www.loom.com/share/119bde0e1db44b67a0cfcd605f14e7f8)
+
 
 ---
 
