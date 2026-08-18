@@ -2,7 +2,7 @@ import logging
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.exceptions import RequestValidationError
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, RedirectResponse
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
 from app.core.config import get_settings
@@ -25,7 +25,7 @@ app = FastAPI(
     redoc_url="/redoc",
 )
 
-# CORS Configuration — allow all origins in development for easy local testing
+# CORS Configuration — allow all origins for easy frontend integration
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -33,6 +33,26 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.get("/", include_in_schema=False)
+def root():
+    return {
+        "status": "healthy",
+        "app": "XEDLAB Clinical AI Medical Report Analyzer API",
+        "version": "1.0.0",
+        "docs": "/docs",
+        "health_check": "/api/health",
+    }
+
+
+@app.get("/api", include_in_schema=False)
+def api_root():
+    return {
+        "status": "healthy",
+        "message": "AI Medical Report Analyzer API endpoints active.",
+        "health": "/api/health",
+    }
 
 
 @app.exception_handler(StarletteHTTPException)
@@ -53,7 +73,6 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
 
 @app.exception_handler(Exception)
 async def generic_exception_handler(request: Request, exc: Exception):
-    # Log full traceback to server console for debugging
     logger.exception("Unhandled internal error on %s: %s", request.url.path, str(exc))
     return JSONResponse(
         status_code=500,
