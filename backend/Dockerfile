@@ -12,12 +12,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /app
 
 # Copy requirements and install Python packages
-COPY requirements.txt .
+COPY requirements.txt ./requirements.txt
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
 # Copy application source code
-COPY . .
+COPY . /app/
 
 # Create uploads directory
 RUN mkdir -p /app/storage/uploads

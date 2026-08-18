@@ -12,12 +12,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /app
 
 # Copy backend requirements and install Python packages
-COPY backend/requirements.txt .
+COPY backend/requirements.txt ./requirements.txt
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
 # Copy backend source code
-COPY backend/ .
+COPY backend/ /app/
 
 # Create uploads directory
 RUN mkdir -p /app/storage/uploads
