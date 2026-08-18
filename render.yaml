@@ -14,14 +14,13 @@ services:
       - key: VITE_API_URL
         value: https://xedlab-clinical-1.onrender.com/api
 
-  # 2. FastAPI Backend — Web Service (100% Free)
+  # 2. FastAPI Backend — Docker (includes Tesseract OCR)
   - type: web
     name: xedlab-clinical-api
-    env: python
+    env: docker
     region: oregon
-    rootDir: backend
-    buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    dockerfilePath: backend/Dockerfile
+    dockerContext: backend
     healthCheckPath: /api/health
     envVars:
       - key: DATABASE_URL

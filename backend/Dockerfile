@@ -12,19 +12,19 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /app
 
 # Copy requirements and install Python packages
-COPY requirements.txt ./requirements.txt
+COPY requirements.txt ./
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
 # Copy application source code
-COPY . /app/
+COPY . .
 
 # Create uploads directory
 RUN mkdir -p /app/storage/uploads
 
 ENV PYTHONUNBUFFERED=1
-ENV PORT=8000
 
-EXPOSE 8000
+EXPOSE 10000
 
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Render sets $PORT dynamically; default to 10000
+CMD uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-10000}
