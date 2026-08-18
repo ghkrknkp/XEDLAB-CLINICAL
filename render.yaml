@@ -1,32 +1,12 @@
 services:
-  # 1. React Frontend Static Site (100% Free)
+  # Full-stack service: FastAPI backend + React frontend (100% Free)
   - type: web
-    name: ai-medical-report-analyzer-frontend
-    env: static
-    rootDir: frontend
-    buildCommand: npm install && npm run build
-    staticPublishPath: dist
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
-    envVars:
-      - key: VITE_API_URL
-        fromService:
-          type: web
-          name: ai-medical-report-analyzer-api
-          property: host
-          prefix: https://
-          postfix: /api
-
-  # 2. FastAPI Web Backend (Native Python 3 - 100% Free)
-  - type: web
-    name: ai-medical-report-analyzer-api
+    name: xedlab-clinical-api
     env: python
     region: oregon
-    rootDir: backend
-    buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    # Root of repo — build.sh handles both frontend & backend
+    buildCommand: chmod +x build.sh && ./build.sh
+    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /api/health
     envVars:
       - key: DATABASE_URL
@@ -37,3 +17,5 @@ services:
         value: none
       - key: STORAGE_PROVIDER
         value: local
+      - key: NODE_VERSION
+        value: "20"
