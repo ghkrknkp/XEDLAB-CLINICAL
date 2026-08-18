@@ -1,0 +1,18 @@
+# Core lightweight dependencies that install cleanly without requiring C/C++ compilers
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+python-multipart
+Pillow
+pytesseract
+PyMuPDF
+requests
+python-dotenv
+pytest
+httpx
+email-validator
+alembic

@@ -1,0 +1,10 @@
+Patient ID: P1001
+Age: 22
+Date: 2026-08-17
+
+Complete Blood Count
+
+Hemoglobin 10.2 g/dL 12.0 - 16.0
+WBC 7200 /uL 4000 - 11000
+Platelets 250000 /uL 150000 - 450000
+Hematocrit 39 % 36 - 46

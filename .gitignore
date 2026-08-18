@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Env
+.env
+!.env.example
+
+# Databases / storage
+*.db
+backend/storage/
+
+# ML artifacts (regenerate via ml/training/train_classifier.py)
+ml/models/*.joblib
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

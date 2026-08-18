@@ -1,0 +1,12 @@
+Patient ID: P2045
+Age: 48
+Gender: Male
+Date: 2026-08-15
+
+Lipid Profile Panel
+
+Total Cholesterol: 235 mg/dL (125-200)
+HDL Cholesterol: 42 mg/dL (40-60)
+LDL Cholesterol: 155 mg/dL (0-100)
+Triglycerides: 190 mg/dL (35-150)
+VLDL: 38 mg/dL (5-30)

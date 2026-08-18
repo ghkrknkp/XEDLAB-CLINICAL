@@ -1,0 +1,1569 @@
+text,label
+"Thyroid Function Test
+TSH 5.0 mIU/L 0.4-4.0
+Free T3 4.5 pg/mL 2.3-4.2
+Free T4 1.0 ng/dL 0.8-1.8",Thyroid Test
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"Kidney Function Test
+Creatinine 1.1 mg/dL 0.6-1.3
+Blood Urea Nitrogen 36 mg/dL 7-20
+Uric Acid 7.1 mg/dL 3.5-7.2
+eGFR 49 mL/min 90-120",Kidney Function Test
+"Liver Function Test
+SGOT (AST) 47 U/L 10-40
+SGPT (ALT) 67 U/L 7-56
+Total Bilirubin 0.8 mg/dL 0.1-1.2
+Alkaline Phosphatase 98 U/L 44-147",Liver Function Test
+"Kidney Function Test
+Creatinine 1.1 mg/dL 0.6-1.3
+Blood Urea Nitrogen 17 mg/dL 7-20
+Uric Acid 5.5 mg/dL 3.5-7.2
+eGFR 106 mL/min 90-120",Kidney Function Test
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Liver Function Test
+SGOT (AST) 77 U/L 10-40
+SGPT (ALT) 14 U/L 7-56
+Total Bilirubin 2.1 mg/dL 0.1-1.2
+Alkaline Phosphatase 48 U/L 44-147",Liver Function Test
+"Thyroid Function Test
+TSH 5.4 mIU/L 0.4-4.0
+Free T3 2.2 pg/mL 2.3-4.2
+Free T4 1.8 ng/dL 0.8-1.8",Thyroid Test
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Renal Panel
+Serum Creatinine 0.8 mg/dL Ref 0.7-1.3
+Urea 24 mg/dL Ref 15-40",Kidney Function Test
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Renal Panel
+Serum Creatinine 1.0 mg/dL Ref 0.7-1.3
+Urea 36 mg/dL Ref 15-40",Kidney Function Test
+"Kidney Function Test
+Creatinine 1.5 mg/dL 0.6-1.3
+Blood Urea Nitrogen 38 mg/dL 7-20
+Uric Acid 6.9 mg/dL 3.5-7.2
+eGFR 61 mL/min 90-120",Kidney Function Test
+"Complete Blood Count
+Hemoglobin 12.6 g/dL 12.0-16.0
+WBC 11861 /uL 4000-11000
+Platelets 330268 /uL 150000-450000
+RBC 5.3 million/uL 4.2-5.4
+Hematocrit 37.7 % 36-46",CBC
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Thyroid Panel
+TSH 7.7 uIU/mL Ref 0.27-4.2
+T4 1.4 ng/dL Ref 0.9-1.7",Thyroid Test
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"Complete Blood Count
+Hemoglobin 13.6 g/dL 12.0-16.0
+WBC 12836 /uL 4000-11000
+Platelets 115303 /uL 150000-450000
+RBC 5.0 million/uL 4.2-5.4
+Hematocrit 36.9 % 36-46",CBC
+"Ultrasound Abdomen
+Liver, gallbladder, pancreas, spleen and kidneys appear normal in echotexture.",Radiology
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"LFT Panel
+ALT 32 IU/L Ref 7-55
+AST 55 IU/L Ref 8-48
+Bilirubin Total 2.3 mg/dL Ref 0.3-1.0",Liver Function Test
+"LFT Panel
+ALT 36 IU/L Ref 7-55
+AST 26 IU/L Ref 8-48
+Bilirubin Total 2.4 mg/dL Ref 0.3-1.0",Liver Function Test
+"Complete Blood Count
+Hemoglobin 14.2 g/dL 12.0-16.0
+WBC 10812 /uL 4000-11000
+Platelets 360702 /uL 150000-450000
+RBC 5.4 million/uL 4.2-5.4
+Hematocrit 49.0 % 36-46",CBC
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Lipid Profile
+Total Cholesterol 229 mg/dL 125-200
+HDL Cholesterol 42 mg/dL 40-60
+LDL Cholesterol 76 mg/dL 0-100
+Triglycerides 71 mg/dL 0-150",Lipid Profile
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"Liver Function Test
+SGOT (AST) 89 U/L 10-40
+SGPT (ALT) 76 U/L 7-56
+Total Bilirubin 0.8 mg/dL 0.1-1.2
+Alkaline Phosphatase 94 U/L 44-147",Liver Function Test
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Thyroid Function Test
+TSH 2.1 mIU/L 0.4-4.0
+Free T3 2.6 pg/mL 2.3-4.2
+Free T4 1.1 ng/dL 0.8-1.8",Thyroid Test
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Renal Panel
+Serum Creatinine 1.8 mg/dL Ref 0.7-1.3
+Urea 9 mg/dL Ref 15-40",Kidney Function Test
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"Thyroid Function Test
+TSH 1.3 mIU/L 0.4-4.0
+Free T3 2.9 pg/mL 2.3-4.2
+Free T4 2.0 ng/dL 0.8-1.8",Thyroid Test
+"Thyroid Panel
+TSH 2.5 uIU/mL Ref 0.27-4.2
+T4 0.9 ng/dL Ref 0.9-1.7",Thyroid Test
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Complete Blood Count
+Hemoglobin 14.7 g/dL 12.0-16.0
+WBC 5345 /uL 4000-11000
+Platelets 234339 /uL 150000-450000
+RBC 5.7 million/uL 4.2-5.4
+Hematocrit 31.6 % 36-46",CBC
+"Lipid Profile
+Total Cholesterol 181 mg/dL 125-200
+HDL Cholesterol 30 mg/dL 40-60
+LDL Cholesterol 176 mg/dL 0-100
+Triglycerides 87 mg/dL 0-150",Lipid Profile
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Thyroid Function Test
+TSH 2.7 mIU/L 0.4-4.0
+Free T3 2.5 pg/mL 2.3-4.2
+Free T4 1.4 ng/dL 0.8-1.8",Thyroid Test
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"Histopathology Report
+Specimen: Biopsy tissue. Microscopic examination reveals benign findings. No malignancy identified.",Pathology
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"Thyroid Function Test
+TSH 7.1 mIU/L 0.4-4.0
+Free T3 3.1 pg/mL 2.3-4.2
+Free T4 1.5 ng/dL 0.8-1.8",Thyroid Test
+"Kidney Function Test
+Creatinine 1.0 mg/dL 0.6-1.3
+Blood Urea Nitrogen 12 mg/dL 7-20
+Uric Acid 7.8 mg/dL 3.5-7.2
+eGFR 119 mL/min 90-120",Kidney Function Test
+"Cholesterol Panel
+Cholesterol 204 mg/dL Ref <200
+HDL 35 mg/dL Ref >40
+LDL 127 mg/dL Ref <100
+Triglycerides 187 mg/dL Ref <150",Lipid Profile
+"Kidney Function Test
+Creatinine 1.4 mg/dL 0.6-1.3
+Blood Urea Nitrogen 11 mg/dL 7-20
+Uric Acid 5.5 mg/dL 3.5-7.2
+eGFR 103 mL/min 90-120",Kidney Function Test
+"Thyroid Panel
+TSH 6.0 uIU/mL Ref 0.27-4.2
+T4 1.4 ng/dL Ref 0.9-1.7",Thyroid Test
+"Kidney Function Test
+Creatinine 0.6 mg/dL 0.6-1.3
+Blood Urea Nitrogen 25 mg/dL 7-20
+Uric Acid 4.1 mg/dL 3.5-7.2
+eGFR 120 mL/min 90-120",Kidney Function Test
+"Renal Panel
+Serum Creatinine 0.7 mg/dL Ref 0.7-1.3
+Urea 20 mg/dL Ref 15-40",Kidney Function Test
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"CBC Report
+Hb 12.7 g/dL Ref 13-17
+White Blood Cell Count 7422 /uL Ref 4500-11000
+Platelet Count 185481 /uL Ref 150000-410000",CBC
+"Thyroid Panel
+TSH 2.2 uIU/mL Ref 0.27-4.2
+T4 1.1 ng/dL Ref 0.9-1.7",Thyroid Test
+"Kidney Function Test
+Creatinine 1.0 mg/dL 0.6-1.3
+Blood Urea Nitrogen 36 mg/dL 7-20
+Uric Acid 9.0 mg/dL 3.5-7.2
+eGFR 74 mL/min 90-120",Kidney Function Test
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Renal Panel
+Serum Creatinine 0.7 mg/dL Ref 0.7-1.3
+Urea 33 mg/dL Ref 15-40",Kidney Function Test
+"Liver Function Test
+SGOT (AST) 85 U/L 10-40
+SGPT (ALT) 72 U/L 7-56
+Total Bilirubin 0.4 mg/dL 0.1-1.2
+Alkaline Phosphatase 139 U/L 44-147",Liver Function Test
+"Ultrasound Abdomen
+Liver, gallbladder, pancreas, spleen and kidneys appear normal in echotexture.",Radiology
+"Lipid Profile
+Total Cholesterol 240 mg/dL 125-200
+HDL Cholesterol 56 mg/dL 40-60
+LDL Cholesterol 77 mg/dL 0-100
+Triglycerides 194 mg/dL 0-150",Lipid Profile
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"MRI Report
+MRI Brain: No acute intracranial abnormality. Ventricles normal in size.",Radiology
+"CBC Report
+Hb 15.2 g/dL Ref 13-17
+White Blood Cell Count 11841 /uL Ref 4500-11000
+Platelet Count 262551 /uL Ref 150000-410000",CBC
+"Liver Function Test
+SGOT (AST) 60 U/L 10-40
+SGPT (ALT) 42 U/L 7-56
+Total Bilirubin 0.3 mg/dL 0.1-1.2
+Alkaline Phosphatase 167 U/L 44-147",Liver Function Test
+"Histopathology Report
+Specimen: Biopsy tissue. Microscopic examination reveals benign findings. No malignancy identified.",Pathology
+"Complete Blood Count
+Hemoglobin 9.5 g/dL 12.0-16.0
+WBC 3680 /uL 4000-11000
+Platelets 444728 /uL 150000-450000
+RBC 4.5 million/uL 4.2-5.4
+Hematocrit 48.8 % 36-46",CBC
+"MRI Report
+MRI Brain: No acute intracranial abnormality. Ventricles normal in size.",Radiology
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"LFT Panel
+ALT 35 IU/L Ref 7-55
+AST 78 IU/L Ref 8-48
+Bilirubin Total 1.8 mg/dL Ref 0.3-1.0",Liver Function Test
+"Kidney Function Test
+Creatinine 0.7 mg/dL 0.6-1.3
+Blood Urea Nitrogen 6 mg/dL 7-20
+Uric Acid 5.3 mg/dL 3.5-7.2
+eGFR 107 mL/min 90-120",Kidney Function Test
+"Kidney Function Test
+Creatinine 0.7 mg/dL 0.6-1.3
+Blood Urea Nitrogen 35 mg/dL 7-20
+Uric Acid 4.1 mg/dL 3.5-7.2
+eGFR 52 mL/min 90-120",Kidney Function Test
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"Cholesterol Panel
+Cholesterol 234 mg/dL Ref <200
+HDL 54 mg/dL Ref >40
+LDL 82 mg/dL Ref <100
+Triglycerides 244 mg/dL Ref <150",Lipid Profile
+"LFT Panel
+ALT 19 IU/L Ref 7-55
+AST 59 IU/L Ref 8-48
+Bilirubin Total 0.3 mg/dL Ref 0.3-1.0",Liver Function Test
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Thyroid Function Test
+TSH 3.6 mIU/L 0.4-4.0
+Free T3 1.7 pg/mL 2.3-4.2
+Free T4 2.0 ng/dL 0.8-1.8",Thyroid Test
+"Complete Blood Count
+Hemoglobin 15.9 g/dL 12.0-16.0
+WBC 5224 /uL 4000-11000
+Platelets 426635 /uL 150000-450000
+RBC 4.7 million/uL 4.2-5.4
+Hematocrit 36.1 % 36-46",CBC
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"LFT Panel
+ALT 62 IU/L Ref 7-55
+AST 15 IU/L Ref 8-48
+Bilirubin Total 1.2 mg/dL Ref 0.3-1.0",Liver Function Test
+"LFT Panel
+ALT 34 IU/L Ref 7-55
+AST 28 IU/L Ref 8-48
+Bilirubin Total 2.0 mg/dL Ref 0.3-1.0",Liver Function Test
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Lipid Profile
+Total Cholesterol 220 mg/dL 125-200
+HDL Cholesterol 65 mg/dL 40-60
+LDL Cholesterol 116 mg/dL 0-100
+Triglycerides 115 mg/dL 0-150",Lipid Profile
+"LFT Panel
+ALT 23 IU/L Ref 7-55
+AST 47 IU/L Ref 8-48
+Bilirubin Total 1.7 mg/dL Ref 0.3-1.0",Liver Function Test
+"Lipid Profile
+Total Cholesterol 239 mg/dL 125-200
+HDL Cholesterol 58 mg/dL 40-60
+LDL Cholesterol 142 mg/dL 0-100
+Triglycerides 160 mg/dL 0-150",Lipid Profile
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"LFT Panel
+ALT 9 IU/L Ref 7-55
+AST 43 IU/L Ref 8-48
+Bilirubin Total 0.9 mg/dL Ref 0.3-1.0",Liver Function Test
+"Lipid Profile
+Total Cholesterol 173 mg/dL 125-200
+HDL Cholesterol 59 mg/dL 40-60
+LDL Cholesterol 74 mg/dL 0-100
+Triglycerides 142 mg/dL 0-150",Lipid Profile
+"Complete Blood Count
+Hemoglobin 9.1 g/dL 12.0-16.0
+WBC 9212 /uL 4000-11000
+Platelets 325197 /uL 150000-450000
+RBC 3.7 million/uL 4.2-5.4
+Hematocrit 40.8 % 36-46",CBC
+"Lipid Profile
+Total Cholesterol 175 mg/dL 125-200
+HDL Cholesterol 68 mg/dL 40-60
+LDL Cholesterol 118 mg/dL 0-100
+Triglycerides 213 mg/dL 0-150",Lipid Profile
+"LFT Panel
+ALT 43 IU/L Ref 7-55
+AST 57 IU/L Ref 8-48
+Bilirubin Total 1.8 mg/dL Ref 0.3-1.0",Liver Function Test
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"CBC Report
+Hb 9.9 g/dL Ref 13-17
+White Blood Cell Count 10725 /uL Ref 4500-11000
+Platelet Count 445964 /uL Ref 150000-410000",CBC
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"Histopathology Report
+Specimen: Biopsy tissue. Microscopic examination reveals benign findings. No malignancy identified.",Pathology
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"Histopathology Report
+Specimen: Biopsy tissue. Microscopic examination reveals benign findings. No malignancy identified.",Pathology
+"Complete Blood Count
+Hemoglobin 9.2 g/dL 12.0-16.0
+WBC 5750 /uL 4000-11000
+Platelets 189284 /uL 150000-450000
+RBC 5.3 million/uL 4.2-5.4
+Hematocrit 43.5 % 36-46",CBC
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"LFT Panel
+ALT 34 IU/L Ref 7-55
+AST 66 IU/L Ref 8-48
+Bilirubin Total 0.7 mg/dL Ref 0.3-1.0",Liver Function Test
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Lipid Profile
+Total Cholesterol 241 mg/dL 125-200
+HDL Cholesterol 42 mg/dL 40-60
+LDL Cholesterol 152 mg/dL 0-100
+Triglycerides 169 mg/dL 0-150",Lipid Profile
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"CBC Report
+Hb 10.3 g/dL Ref 13-17
+White Blood Cell Count 7418 /uL Ref 4500-11000
+Platelet Count 382267 /uL Ref 150000-410000",CBC
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Complete Blood Count
+Hemoglobin 9.9 g/dL 12.0-16.0
+WBC 6630 /uL 4000-11000
+Platelets 494129 /uL 150000-450000
+RBC 5.5 million/uL 4.2-5.4
+Hematocrit 34.8 % 36-46",CBC
+"LFT Panel
+ALT 74 IU/L Ref 7-55
+AST 56 IU/L Ref 8-48
+Bilirubin Total 1.5 mg/dL Ref 0.3-1.0",Liver Function Test
+"Thyroid Panel
+TSH 5.5 uIU/mL Ref 0.27-4.2
+T4 1.1 ng/dL Ref 0.9-1.7",Thyroid Test
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Cholesterol Panel
+Cholesterol 207 mg/dL Ref <200
+HDL 42 mg/dL Ref >40
+LDL 90 mg/dL Ref <100
+Triglycerides 222 mg/dL Ref <150",Lipid Profile
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Cholesterol Panel
+Cholesterol 147 mg/dL Ref <200
+HDL 48 mg/dL Ref >40
+LDL 97 mg/dL Ref <100
+Triglycerides 146 mg/dL Ref <150",Lipid Profile
+"Cholesterol Panel
+Cholesterol 196 mg/dL Ref <200
+HDL 37 mg/dL Ref >40
+LDL 90 mg/dL Ref <100
+Triglycerides 78 mg/dL Ref <150",Lipid Profile
+"Liver Function Test
+SGOT (AST) 37 U/L 10-40
+SGPT (ALT) 77 U/L 7-56
+Total Bilirubin 0.4 mg/dL 0.1-1.2
+Alkaline Phosphatase 198 U/L 44-147",Liver Function Test
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Histopathology Report
+Specimen: Biopsy tissue. Microscopic examination reveals benign findings. No malignancy identified.",Pathology
+"CBC Report
+Hb 9.0 g/dL Ref 13-17
+White Blood Cell Count 6518 /uL Ref 4500-11000
+Platelet Count 401390 /uL Ref 150000-410000",CBC
+"Ultrasound Abdomen
+Liver, gallbladder, pancreas, spleen and kidneys appear normal in echotexture.",Radiology
+"Radiology Report
+Chest X-Ray: No active infiltrate. Cardiac silhouette normal. No pleural effusion.",Radiology
+"Kidney Function Test
+Creatinine 1.9 mg/dL 0.6-1.3
+Blood Urea Nitrogen 30 mg/dL 7-20
+Uric Acid 4.6 mg/dL 3.5-7.2
+eGFR 115 mL/min 90-120",Kidney Function Test
+"Complete Blood Count
+Hemoglobin 14.7 g/dL 12.0-16.0
+WBC 6108 /uL 4000-11000
+Platelets 105470 /uL 150000-450000
+RBC 4.5 million/uL 4.2-5.4
+Hematocrit 34.5 % 36-46",CBC
+"Lipid Profile
+Total Cholesterol 153 mg/dL 125-200
+HDL Cholesterol 64 mg/dL 40-60
+LDL Cholesterol 76 mg/dL 0-100
+Triglycerides 128 mg/dL 0-150",Lipid Profile
+"Cholesterol Panel
+Cholesterol 162 mg/dL Ref <200
+HDL 56 mg/dL Ref >40
+LDL 104 mg/dL Ref <100
+Triglycerides 211 mg/dL Ref <150",Lipid Profile
+"Complete Blood Count
+Hemoglobin 12.4 g/dL 12.0-16.0
+WBC 5785 /uL 4000-11000
+Platelets 199923 /uL 150000-450000
+RBC 5.8 million/uL 4.2-5.4
+Hematocrit 38.9 % 36-46",CBC
+"Thyroid Function Test
+TSH 1.5 mIU/L 0.4-4.0
+Free T3 3.8 pg/mL 2.3-4.2
+Free T4 1.1 ng/dL 0.8-1.8",Thyroid Test
+"Thyroid Function Test
+TSH 1.5 mIU/L 0.4-4.0
+Free T3 3.6 pg/mL 2.3-4.2
+Free T4 1.9 ng/dL 0.8-1.8",Thyroid Test
+"Thyroid Function Test
+TSH 4.7 mIU/L 0.4-4.0
+Free T3 2.7 pg/mL 2.3-4.2
+Free T4 1.9 ng/dL 0.8-1.8",Thyroid Test
+"Cholesterol Panel
+Cholesterol 171 mg/dL Ref <200
+HDL 33 mg/dL Ref >40
+LDL 78 mg/dL Ref <100
+Triglycerides 204 mg/dL Ref <150",Lipid Profile
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"Histopathology Report
+Specimen: Biopsy tissue. Microscopic examination reveals benign findings. No malignancy identified.",Pathology
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"Kidney Function Test
+Creatinine 1.9 mg/dL 0.6-1.3
+Blood Urea Nitrogen 15 mg/dL 7-20
+Uric Acid 6.9 mg/dL 3.5-7.2
+eGFR 66 mL/min 90-120",Kidney Function Test
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Ultrasound Abdomen
+Liver, gallbladder, pancreas, spleen and kidneys appear normal in echotexture.",Radiology
+"Lipid Profile
+Total Cholesterol 200 mg/dL 125-200
+HDL Cholesterol 49 mg/dL 40-60
+LDL Cholesterol 136 mg/dL 0-100
+Triglycerides 169 mg/dL 0-150",Lipid Profile
+"Ultrasound Abdomen
+Liver, gallbladder, pancreas, spleen and kidneys appear normal in echotexture.",Radiology
+"Cholesterol Panel
+Cholesterol 214 mg/dL Ref <200
+HDL 45 mg/dL Ref >40
+LDL 137 mg/dL Ref <100
+Triglycerides 210 mg/dL Ref <150",Lipid Profile
+"Thyroid Function Test
+TSH 1.7 mIU/L 0.4-4.0
+Free T3 2.2 pg/mL 2.3-4.2
+Free T4 0.9 ng/dL 0.8-1.8",Thyroid Test
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"Kidney Function Test
+Creatinine 1.0 mg/dL 0.6-1.3
+Blood Urea Nitrogen 27 mg/dL 7-20
+Uric Acid 5.8 mg/dL 3.5-7.2
+eGFR 95 mL/min 90-120",Kidney Function Test
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Kidney Function Test
+Creatinine 0.6 mg/dL 0.6-1.3
+Blood Urea Nitrogen 13 mg/dL 7-20
+Uric Acid 5.2 mg/dL 3.5-7.2
+eGFR 46 mL/min 90-120",Kidney Function Test
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Thyroid Function Test
+TSH 2.8 mIU/L 0.4-4.0
+Free T3 3.9 pg/mL 2.3-4.2
+Free T4 2.2 ng/dL 0.8-1.8",Thyroid Test
+"MRI Report
+MRI Brain: No acute intracranial abnormality. Ventricles normal in size.",Radiology
+"Ultrasound Abdomen
+Liver, gallbladder, pancreas, spleen and kidneys appear normal in echotexture.",Radiology
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"Lipid Profile
+Total Cholesterol 235 mg/dL 125-200
+HDL Cholesterol 26 mg/dL 40-60
+LDL Cholesterol 126 mg/dL 0-100
+Triglycerides 130 mg/dL 0-150",Lipid Profile
+"Thyroid Function Test
+TSH 7.4 mIU/L 0.4-4.0
+Free T3 3.9 pg/mL 2.3-4.2
+Free T4 1.6 ng/dL 0.8-1.8",Thyroid Test
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Ultrasound Abdomen
+Liver, gallbladder, pancreas, spleen and kidneys appear normal in echotexture.",Radiology
+"Ultrasound Abdomen
+Liver, gallbladder, pancreas, spleen and kidneys appear normal in echotexture.",Radiology
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"Complete Blood Count
+Hemoglobin 16.5 g/dL 12.0-16.0
+WBC 4343 /uL 4000-11000
+Platelets 146171 /uL 150000-450000
+RBC 3.8 million/uL 4.2-5.4
+Hematocrit 41.1 % 36-46",CBC
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"MRI Report
+MRI Brain: No acute intracranial abnormality. Ventricles normal in size.",Radiology
+"Thyroid Panel
+TSH 7.5 uIU/mL Ref 0.27-4.2
+T4 1.8 ng/dL Ref 0.9-1.7",Thyroid Test
+"LFT Panel
+ALT 25 IU/L Ref 7-55
+AST 64 IU/L Ref 8-48
+Bilirubin Total 1.6 mg/dL Ref 0.3-1.0",Liver Function Test
+"MRI Report
+MRI Brain: No acute intracranial abnormality. Ventricles normal in size.",Radiology
+"Thyroid Panel
+TSH 4.8 uIU/mL Ref 0.27-4.2
+T4 0.5 ng/dL Ref 0.9-1.7",Thyroid Test
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"Complete Blood Count
+Hemoglobin 10.9 g/dL 12.0-16.0
+WBC 10070 /uL 4000-11000
+Platelets 381195 /uL 150000-450000
+RBC 4.6 million/uL 4.2-5.4
+Hematocrit 43.7 % 36-46",CBC
+"LFT Panel
+ALT 42 IU/L Ref 7-55
+AST 36 IU/L Ref 8-48
+Bilirubin Total 2.1 mg/dL Ref 0.3-1.0",Liver Function Test
+"Kidney Function Test
+Creatinine 0.6 mg/dL 0.6-1.3
+Blood Urea Nitrogen 35 mg/dL 7-20
+Uric Acid 4.0 mg/dL 3.5-7.2
+eGFR 58 mL/min 90-120",Kidney Function Test
+"LFT Panel
+ALT 68 IU/L Ref 7-55
+AST 78 IU/L Ref 8-48
+Bilirubin Total 2.2 mg/dL Ref 0.3-1.0",Liver Function Test
+"Liver Function Test
+SGOT (AST) 68 U/L 10-40
+SGPT (ALT) 73 U/L 7-56
+Total Bilirubin 1.3 mg/dL 0.1-1.2
+Alkaline Phosphatase 130 U/L 44-147",Liver Function Test
+"Complete Blood Count
+Hemoglobin 15.2 g/dL 12.0-16.0
+WBC 6804 /uL 4000-11000
+Platelets 463402 /uL 150000-450000
+RBC 4.2 million/uL 4.2-5.4
+Hematocrit 41.8 % 36-46",CBC
+"Histopathology Report
+Specimen: Biopsy tissue. Microscopic examination reveals benign findings. No malignancy identified.",Pathology
+"Thyroid Panel
+TSH 6.2 uIU/mL Ref 0.27-4.2
+T4 1.0 ng/dL Ref 0.9-1.7",Thyroid Test
+"Kidney Function Test
+Creatinine 2.0 mg/dL 0.6-1.3
+Blood Urea Nitrogen 11 mg/dL 7-20
+Uric Acid 5.0 mg/dL 3.5-7.2
+eGFR 95 mL/min 90-120",Kidney Function Test
+"Kidney Function Test
+Creatinine 1.9 mg/dL 0.6-1.3
+Blood Urea Nitrogen 28 mg/dL 7-20
+Uric Acid 4.0 mg/dL 3.5-7.2
+eGFR 127 mL/min 90-120",Kidney Function Test
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"MRI Report
+MRI Brain: No acute intracranial abnormality. Ventricles normal in size.",Radiology
+"Complete Blood Count
+Hemoglobin 10.5 g/dL 12.0-16.0
+WBC 10386 /uL 4000-11000
+Platelets 210600 /uL 150000-450000
+RBC 5.0 million/uL 4.2-5.4
+Hematocrit 45.2 % 36-46",CBC
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"Thyroid Function Test
+TSH 3.4 mIU/L 0.4-4.0
+Free T3 3.6 pg/mL 2.3-4.2
+Free T4 1.7 ng/dL 0.8-1.8",Thyroid Test
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"Complete Blood Count
+Hemoglobin 14.8 g/dL 12.0-16.0
+WBC 11824 /uL 4000-11000
+Platelets 330485 /uL 150000-450000
+RBC 4.1 million/uL 4.2-5.4
+Hematocrit 39.5 % 36-46",CBC
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Thyroid Panel
+TSH 7.0 uIU/mL Ref 0.27-4.2
+T4 1.2 ng/dL Ref 0.9-1.7",Thyroid Test
+"Liver Function Test
+SGOT (AST) 49 U/L 10-40
+SGPT (ALT) 14 U/L 7-56
+Total Bilirubin 0.7 mg/dL 0.1-1.2
+Alkaline Phosphatase 79 U/L 44-147",Liver Function Test
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"CBC Report
+Hb 12.5 g/dL Ref 13-17
+White Blood Cell Count 7687 /uL Ref 4500-11000
+Platelet Count 221636 /uL Ref 150000-410000",CBC
+"CBC Report
+Hb 16.4 g/dL Ref 13-17
+White Blood Cell Count 10851 /uL Ref 4500-11000
+Platelet Count 214100 /uL Ref 150000-410000",CBC
+"Lipid Profile
+Total Cholesterol 221 mg/dL 125-200
+HDL Cholesterol 68 mg/dL 40-60
+LDL Cholesterol 105 mg/dL 0-100
+Triglycerides 205 mg/dL 0-150",Lipid Profile
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"CBC Report
+Hb 16.1 g/dL Ref 13-17
+White Blood Cell Count 5439 /uL Ref 4500-11000
+Platelet Count 285883 /uL Ref 150000-410000",CBC
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"Liver Function Test
+SGOT (AST) 49 U/L 10-40
+SGPT (ALT) 91 U/L 7-56
+Total Bilirubin 1.2 mg/dL 0.1-1.2
+Alkaline Phosphatase 49 U/L 44-147",Liver Function Test
+"Ultrasound Abdomen
+Liver, gallbladder, pancreas, spleen and kidneys appear normal in echotexture.",Radiology
+"Ultrasound Abdomen
+Liver, gallbladder, pancreas, spleen and kidneys appear normal in echotexture.",Radiology
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"LFT Panel
+ALT 69 IU/L Ref 7-55
+AST 53 IU/L Ref 8-48
+Bilirubin Total 0.6 mg/dL Ref 0.3-1.0",Liver Function Test
+"Complete Blood Count
+Hemoglobin 12.8 g/dL 12.0-16.0
+WBC 9515 /uL 4000-11000
+Platelets 466429 /uL 150000-450000
+RBC 4.0 million/uL 4.2-5.4
+Hematocrit 41.7 % 36-46",CBC
+"Lipid Profile
+Total Cholesterol 193 mg/dL 125-200
+HDL Cholesterol 56 mg/dL 40-60
+LDL Cholesterol 168 mg/dL 0-100
+Triglycerides 69 mg/dL 0-150",Lipid Profile
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Liver Function Test
+SGOT (AST) 14 U/L 10-40
+SGPT (ALT) 73 U/L 7-56
+Total Bilirubin 0.2 mg/dL 0.1-1.2
+Alkaline Phosphatase 95 U/L 44-147",Liver Function Test
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Histopathology Report
+Specimen: Biopsy tissue. Microscopic examination reveals benign findings. No malignancy identified.",Pathology
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Kidney Function Test
+Creatinine 0.6 mg/dL 0.6-1.3
+Blood Urea Nitrogen 40 mg/dL 7-20
+Uric Acid 6.2 mg/dL 3.5-7.2
+eGFR 110 mL/min 90-120",Kidney Function Test
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"Ultrasound Abdomen
+Liver, gallbladder, pancreas, spleen and kidneys appear normal in echotexture.",Radiology
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"Lipid Profile
+Total Cholesterol 204 mg/dL 125-200
+HDL Cholesterol 48 mg/dL 40-60
+LDL Cholesterol 80 mg/dL 0-100
+Triglycerides 239 mg/dL 0-150",Lipid Profile
+"Radiology Report
+Chest X-Ray: No active infiltrate. Cardiac silhouette normal. No pleural effusion.",Radiology
+"Liver Function Test
+SGOT (AST) 32 U/L 10-40
+SGPT (ALT) 98 U/L 7-56
+Total Bilirubin 0.1 mg/dL 0.1-1.2
+Alkaline Phosphatase 170 U/L 44-147",Liver Function Test
+"Kidney Function Test
+Creatinine 0.9 mg/dL 0.6-1.3
+Blood Urea Nitrogen 25 mg/dL 7-20
+Uric Acid 3.8 mg/dL 3.5-7.2
+eGFR 117 mL/min 90-120",Kidney Function Test
+"Histopathology Report
+Specimen: Biopsy tissue. Microscopic examination reveals benign findings. No malignancy identified.",Pathology
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"Ultrasound Abdomen
+Liver, gallbladder, pancreas, spleen and kidneys appear normal in echotexture.",Radiology
+"Thyroid Function Test
+TSH 4.5 mIU/L 0.4-4.0
+Free T3 4.2 pg/mL 2.3-4.2
+Free T4 1.8 ng/dL 0.8-1.8",Thyroid Test
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"MRI Report
+MRI Brain: No acute intracranial abnormality. Ventricles normal in size.",Radiology
+"Kidney Function Test
+Creatinine 1.5 mg/dL 0.6-1.3
+Blood Urea Nitrogen 16 mg/dL 7-20
+Uric Acid 6.1 mg/dL 3.5-7.2
+eGFR 88 mL/min 90-120",Kidney Function Test
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"Complete Blood Count
+Hemoglobin 13.6 g/dL 12.0-16.0
+WBC 7694 /uL 4000-11000
+Platelets 276188 /uL 150000-450000
+RBC 4.0 million/uL 4.2-5.4
+Hematocrit 31.0 % 36-46",CBC
+"LFT Panel
+ALT 42 IU/L Ref 7-55
+AST 57 IU/L Ref 8-48
+Bilirubin Total 2.0 mg/dL Ref 0.3-1.0",Liver Function Test
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"Kidney Function Test
+Creatinine 2.0 mg/dL 0.6-1.3
+Blood Urea Nitrogen 20 mg/dL 7-20
+Uric Acid 8.8 mg/dL 3.5-7.2
+eGFR 128 mL/min 90-120",Kidney Function Test
+"Radiology Report
+Chest X-Ray: No active infiltrate. Cardiac silhouette normal. No pleural effusion.",Radiology
+"Histopathology Report
+Specimen: Biopsy tissue. Microscopic examination reveals benign findings. No malignancy identified.",Pathology
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Histopathology Report
+Specimen: Biopsy tissue. Microscopic examination reveals benign findings. No malignancy identified.",Pathology
+"LFT Panel
+ALT 40 IU/L Ref 7-55
+AST 73 IU/L Ref 8-48
+Bilirubin Total 2.2 mg/dL Ref 0.3-1.0",Liver Function Test
+"Cholesterol Panel
+Cholesterol 235 mg/dL Ref <200
+HDL 30 mg/dL Ref >40
+LDL 139 mg/dL Ref <100
+Triglycerides 227 mg/dL Ref <150",Lipid Profile
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"Liver Function Test
+SGOT (AST) 21 U/L 10-40
+SGPT (ALT) 68 U/L 7-56
+Total Bilirubin 0.6 mg/dL 0.1-1.2
+Alkaline Phosphatase 88 U/L 44-147",Liver Function Test
+"Thyroid Function Test
+TSH 6.1 mIU/L 0.4-4.0
+Free T3 3.5 pg/mL 2.3-4.2
+Free T4 1.7 ng/dL 0.8-1.8",Thyroid Test
+"Complete Blood Count
+Hemoglobin 15.2 g/dL 12.0-16.0
+WBC 12852 /uL 4000-11000
+Platelets 442127 /uL 150000-450000
+RBC 5.7 million/uL 4.2-5.4
+Hematocrit 37.6 % 36-46",CBC
+"Cholesterol Panel
+Cholesterol 148 mg/dL Ref <200
+HDL 58 mg/dL Ref >40
+LDL 177 mg/dL Ref <100
+Triglycerides 77 mg/dL Ref <150",Lipid Profile
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"Kidney Function Test
+Creatinine 1.8 mg/dL 0.6-1.3
+Blood Urea Nitrogen 33 mg/dL 7-20
+Uric Acid 4.3 mg/dL 3.5-7.2
+eGFR 64 mL/min 90-120",Kidney Function Test
+"Thyroid Panel
+TSH 4.2 uIU/mL Ref 0.27-4.2
+T4 0.6 ng/dL Ref 0.9-1.7",Thyroid Test
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Thyroid Function Test
+TSH 3.7 mIU/L 0.4-4.0
+Free T3 3.7 pg/mL 2.3-4.2
+Free T4 1.0 ng/dL 0.8-1.8",Thyroid Test
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Ultrasound Abdomen
+Liver, gallbladder, pancreas, spleen and kidneys appear normal in echotexture.",Radiology
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"CBC Report
+Hb 14.0 g/dL Ref 13-17
+White Blood Cell Count 9634 /uL Ref 4500-11000
+Platelet Count 149850 /uL Ref 150000-410000",CBC
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"LFT Panel
+ALT 42 IU/L Ref 7-55
+AST 28 IU/L Ref 8-48
+Bilirubin Total 1.2 mg/dL Ref 0.3-1.0",Liver Function Test
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"CBC Report
+Hb 11.7 g/dL Ref 13-17
+White Blood Cell Count 4555 /uL Ref 4500-11000
+Platelet Count 482885 /uL Ref 150000-410000",CBC
+"LFT Panel
+ALT 81 IU/L Ref 7-55
+AST 27 IU/L Ref 8-48
+Bilirubin Total 2.1 mg/dL Ref 0.3-1.0",Liver Function Test
+"Renal Panel
+Serum Creatinine 1.0 mg/dL Ref 0.7-1.3
+Urea 7 mg/dL Ref 15-40",Kidney Function Test
+"Renal Panel
+Serum Creatinine 1.5 mg/dL Ref 0.7-1.3
+Urea 12 mg/dL Ref 15-40",Kidney Function Test
+"MRI Report
+MRI Brain: No acute intracranial abnormality. Ventricles normal in size.",Radiology
+"Kidney Function Test
+Creatinine 1.8 mg/dL 0.6-1.3
+Blood Urea Nitrogen 35 mg/dL 7-20
+Uric Acid 5.8 mg/dL 3.5-7.2
+eGFR 64 mL/min 90-120",Kidney Function Test
+"Renal Panel
+Serum Creatinine 0.7 mg/dL Ref 0.7-1.3
+Urea 11 mg/dL Ref 15-40",Kidney Function Test
+"Cholesterol Panel
+Cholesterol 255 mg/dL Ref <200
+HDL 45 mg/dL Ref >40
+LDL 157 mg/dL Ref <100
+Triglycerides 219 mg/dL Ref <150",Lipid Profile
+"Radiology Report
+Chest X-Ray: No active infiltrate. Cardiac silhouette normal. No pleural effusion.",Radiology
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"Thyroid Function Test
+TSH 5.6 mIU/L 0.4-4.0
+Free T3 3.9 pg/mL 2.3-4.2
+Free T4 0.6 ng/dL 0.8-1.8",Thyroid Test
+"Cholesterol Panel
+Cholesterol 250 mg/dL Ref <200
+HDL 29 mg/dL Ref >40
+LDL 161 mg/dL Ref <100
+Triglycerides 106 mg/dL Ref <150",Lipid Profile
+"Thyroid Panel
+TSH 4.7 uIU/mL Ref 0.27-4.2
+T4 0.5 ng/dL Ref 0.9-1.7",Thyroid Test
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"Thyroid Function Test
+TSH 1.6 mIU/L 0.4-4.0
+Free T3 4.2 pg/mL 2.3-4.2
+Free T4 1.4 ng/dL 0.8-1.8",Thyroid Test
+"MRI Report
+MRI Brain: No acute intracranial abnormality. Ventricles normal in size.",Radiology
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"Complete Blood Count
+Hemoglobin 13.6 g/dL 12.0-16.0
+WBC 12289 /uL 4000-11000
+Platelets 330319 /uL 150000-450000
+RBC 5.8 million/uL 4.2-5.4
+Hematocrit 37.5 % 36-46",CBC
+"Thyroid Function Test
+TSH 2.5 mIU/L 0.4-4.0
+Free T3 4.6 pg/mL 2.3-4.2
+Free T4 2.1 ng/dL 0.8-1.8",Thyroid Test
+"Histopathology Report
+Specimen: Biopsy tissue. Microscopic examination reveals benign findings. No malignancy identified.",Pathology
+"Lipid Profile
+Total Cholesterol 142 mg/dL 125-200
+HDL Cholesterol 60 mg/dL 40-60
+LDL Cholesterol 101 mg/dL 0-100
+Triglycerides 199 mg/dL 0-150",Lipid Profile
+"Thyroid Function Test
+TSH 5.8 mIU/L 0.4-4.0
+Free T3 1.9 pg/mL 2.3-4.2
+Free T4 0.9 ng/dL 0.8-1.8",Thyroid Test
+"Complete Blood Count
+Hemoglobin 15.9 g/dL 12.0-16.0
+WBC 5762 /uL 4000-11000
+Platelets 416002 /uL 150000-450000
+RBC 4.5 million/uL 4.2-5.4
+Hematocrit 48.7 % 36-46",CBC
+"Liver Function Test
+SGOT (AST) 29 U/L 10-40
+SGPT (ALT) 69 U/L 7-56
+Total Bilirubin 1.2 mg/dL 0.1-1.2
+Alkaline Phosphatase 66 U/L 44-147",Liver Function Test
+"Liver Function Test
+SGOT (AST) 54 U/L 10-40
+SGPT (ALT) 53 U/L 7-56
+Total Bilirubin 0.4 mg/dL 0.1-1.2
+Alkaline Phosphatase 90 U/L 44-147",Liver Function Test
+"MRI Report
+MRI Brain: No acute intracranial abnormality. Ventricles normal in size.",Radiology
+"LFT Panel
+ALT 97 IU/L Ref 7-55
+AST 26 IU/L Ref 8-48
+Bilirubin Total 0.9 mg/dL Ref 0.3-1.0",Liver Function Test
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"CBC Report
+Hb 14.3 g/dL Ref 13-17
+White Blood Cell Count 12879 /uL Ref 4500-11000
+Platelet Count 338181 /uL Ref 150000-410000",CBC
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"Kidney Function Test
+Creatinine 1.6 mg/dL 0.6-1.3
+Blood Urea Nitrogen 38 mg/dL 7-20
+Uric Acid 7.6 mg/dL 3.5-7.2
+eGFR 46 mL/min 90-120",Kidney Function Test
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Radiology Report
+Chest X-Ray: No active infiltrate. Cardiac silhouette normal. No pleural effusion.",Radiology
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"Complete Blood Count
+Hemoglobin 14.5 g/dL 12.0-16.0
+WBC 11429 /uL 4000-11000
+Platelets 410400 /uL 150000-450000
+RBC 4.1 million/uL 4.2-5.4
+Hematocrit 30.6 % 36-46",CBC
+"Liver Function Test
+SGOT (AST) 25 U/L 10-40
+SGPT (ALT) 78 U/L 7-56
+Total Bilirubin 1.8 mg/dL 0.1-1.2
+Alkaline Phosphatase 129 U/L 44-147",Liver Function Test
+"Complete Blood Count
+Hemoglobin 14.7 g/dL 12.0-16.0
+WBC 6990 /uL 4000-11000
+Platelets 368675 /uL 150000-450000
+RBC 4.4 million/uL 4.2-5.4
+Hematocrit 48.0 % 36-46",CBC
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"Lipid Profile
+Total Cholesterol 245 mg/dL 125-200
+HDL Cholesterol 53 mg/dL 40-60
+LDL Cholesterol 132 mg/dL 0-100
+Triglycerides 89 mg/dL 0-150",Lipid Profile
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"Ultrasound Abdomen
+Liver, gallbladder, pancreas, spleen and kidneys appear normal in echotexture.",Radiology
+"MRI Report
+MRI Brain: No acute intracranial abnormality. Ventricles normal in size.",Radiology
+"Radiology Report
+Chest X-Ray: No active infiltrate. Cardiac silhouette normal. No pleural effusion.",Radiology
+"Lipid Profile
+Total Cholesterol 145 mg/dL 125-200
+HDL Cholesterol 34 mg/dL 40-60
+LDL Cholesterol 65 mg/dL 0-100
+Triglycerides 237 mg/dL 0-150",Lipid Profile
+"MRI Report
+MRI Brain: No acute intracranial abnormality. Ventricles normal in size.",Radiology
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"CBC Report
+Hb 9.9 g/dL Ref 13-17
+White Blood Cell Count 7348 /uL Ref 4500-11000
+Platelet Count 281489 /uL Ref 150000-410000",CBC
+"MRI Report
+MRI Brain: No acute intracranial abnormality. Ventricles normal in size.",Radiology
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Lipid Profile
+Total Cholesterol 257 mg/dL 125-200
+HDL Cholesterol 55 mg/dL 40-60
+LDL Cholesterol 93 mg/dL 0-100
+Triglycerides 168 mg/dL 0-150",Lipid Profile
+"CBC Report
+Hb 14.2 g/dL Ref 13-17
+White Blood Cell Count 7908 /uL Ref 4500-11000
+Platelet Count 417173 /uL Ref 150000-410000",CBC
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"LFT Panel
+ALT 36 IU/L Ref 7-55
+AST 66 IU/L Ref 8-48
+Bilirubin Total 0.9 mg/dL Ref 0.3-1.0",Liver Function Test
+"Lipid Profile
+Total Cholesterol 210 mg/dL 125-200
+HDL Cholesterol 58 mg/dL 40-60
+LDL Cholesterol 166 mg/dL 0-100
+Triglycerides 184 mg/dL 0-150",Lipid Profile
+"Renal Panel
+Serum Creatinine 0.7 mg/dL Ref 0.7-1.3
+Urea 35 mg/dL Ref 15-40",Kidney Function Test
+"Complete Blood Count
+Hemoglobin 13.6 g/dL 12.0-16.0
+WBC 5336 /uL 4000-11000
+Platelets 410218 /uL 150000-450000
+RBC 3.6 million/uL 4.2-5.4
+Hematocrit 44.9 % 36-46",CBC
+"Lipid Profile
+Total Cholesterol 181 mg/dL 125-200
+HDL Cholesterol 56 mg/dL 40-60
+LDL Cholesterol 138 mg/dL 0-100
+Triglycerides 222 mg/dL 0-150",Lipid Profile
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"Cholesterol Panel
+Cholesterol 143 mg/dL Ref <200
+HDL 65 mg/dL Ref >40
+LDL 127 mg/dL Ref <100
+Triglycerides 234 mg/dL Ref <150",Lipid Profile
+"Thyroid Panel
+TSH 0.5 uIU/mL Ref 0.27-4.2
+T4 1.3 ng/dL Ref 0.9-1.7",Thyroid Test
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Cholesterol Panel
+Cholesterol 248 mg/dL Ref <200
+HDL 54 mg/dL Ref >40
+LDL 97 mg/dL Ref <100
+Triglycerides 144 mg/dL Ref <150",Lipid Profile
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Kidney Function Test
+Creatinine 1.8 mg/dL 0.6-1.3
+Blood Urea Nitrogen 19 mg/dL 7-20
+Uric Acid 6.5 mg/dL 3.5-7.2
+eGFR 84 mL/min 90-120",Kidney Function Test
+"Liver Function Test
+SGOT (AST) 31 U/L 10-40
+SGPT (ALT) 87 U/L 7-56
+Total Bilirubin 0.3 mg/dL 0.1-1.2
+Alkaline Phosphatase 178 U/L 44-147",Liver Function Test
+"Ultrasound Abdomen
+Liver, gallbladder, pancreas, spleen and kidneys appear normal in echotexture.",Radiology
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"Kidney Function Test
+Creatinine 1.0 mg/dL 0.6-1.3
+Blood Urea Nitrogen 33 mg/dL 7-20
+Uric Acid 6.7 mg/dL 3.5-7.2
+eGFR 99 mL/min 90-120",Kidney Function Test
+"Renal Panel
+Serum Creatinine 1.3 mg/dL Ref 0.7-1.3
+Urea 39 mg/dL Ref 15-40",Kidney Function Test
+"Ultrasound Abdomen
+Liver, gallbladder, pancreas, spleen and kidneys appear normal in echotexture.",Radiology
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"Thyroid Panel
+TSH 5.0 uIU/mL Ref 0.27-4.2
+T4 0.7 ng/dL Ref 0.9-1.7",Thyroid Test
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"LFT Panel
+ALT 28 IU/L Ref 7-55
+AST 68 IU/L Ref 8-48
+Bilirubin Total 0.1 mg/dL Ref 0.3-1.0",Liver Function Test
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"Urine Analysis Report
+Color Pale Yellow
+Specific Gravity 1.02
+pH 6.0
+Protein Negative
+Glucose Negative
+Urine Microscopy: RBC 0-2/hpf, WBC 0-3/hpf",Urine Analysis
+"Progress Note
+Chief Complaint: Follow-up visit.
+History of Present Illness: Improving symptoms since last visit.
+Physical Examination: Unremarkable.",Clinical Note
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Renal Panel
+Serum Creatinine 1.6 mg/dL Ref 0.7-1.3
+Urea 12 mg/dL Ref 15-40",Kidney Function Test
+"Thyroid Panel
+TSH 3.1 uIU/mL Ref 0.27-4.2
+T4 0.5 ng/dL Ref 0.9-1.7",Thyroid Test
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"CBC Report
+Hb 9.1 g/dL Ref 13-17
+White Blood Cell Count 7201 /uL Ref 4500-11000
+Platelet Count 296081 /uL Ref 150000-410000",CBC
+"Kidney Function Test
+Creatinine 0.6 mg/dL 0.6-1.3
+Blood Urea Nitrogen 19 mg/dL 7-20
+Uric Acid 5.5 mg/dL 3.5-7.2
+eGFR 100 mL/min 90-120",Kidney Function Test
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Thyroid Panel
+TSH 1.2 uIU/mL Ref 0.27-4.2
+T4 1.2 ng/dL Ref 0.9-1.7",Thyroid Test
+"Cholesterol Panel
+Cholesterol 164 mg/dL Ref <200
+HDL 31 mg/dL Ref >40
+LDL 69 mg/dL Ref <100
+Triglycerides 93 mg/dL Ref <150",Lipid Profile
+"Cholesterol Panel
+Cholesterol 163 mg/dL Ref <200
+HDL 56 mg/dL Ref >40
+LDL 128 mg/dL Ref <100
+Triglycerides 144 mg/dL Ref <150",Lipid Profile
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"Cholesterol Panel
+Cholesterol 256 mg/dL Ref <200
+HDL 35 mg/dL Ref >40
+LDL 102 mg/dL Ref <100
+Triglycerides 70 mg/dL Ref <150",Lipid Profile
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"MRI Report
+MRI Brain: No acute intracranial abnormality. Ventricles normal in size.",Radiology
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"CBC Report
+Hb 11.9 g/dL Ref 13-17
+White Blood Cell Count 12973 /uL Ref 4500-11000
+Platelet Count 155333 /uL Ref 150000-410000",CBC
+"Kidney Function Test
+Creatinine 0.9 mg/dL 0.6-1.3
+Blood Urea Nitrogen 15 mg/dL 7-20
+Uric Acid 4.9 mg/dL 3.5-7.2
+eGFR 113 mL/min 90-120",Kidney Function Test
+"Lipid Profile
+Total Cholesterol 194 mg/dL 125-200
+HDL Cholesterol 48 mg/dL 40-60
+LDL Cholesterol 160 mg/dL 0-100
+Triglycerides 77 mg/dL 0-150",Lipid Profile
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"MRI Report
+MRI Brain: No acute intracranial abnormality. Ventricles normal in size.",Radiology
+"Urinalysis
+Appearance Clear
+Specific Gravity 1.015
+Protein Trace
+Ketones Negative
+Nitrite Negative",Urine Analysis
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Radiology Report
+Chest X-Ray: No active infiltrate. Cardiac silhouette normal. No pleural effusion.",Radiology
+"Discharge Summary
+Patient admitted with fever and cough. Treated with antibiotics. Discharged in stable condition. Follow up in 1 week.",Discharge Summary
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Thyroid Panel
+TSH 4.5 uIU/mL Ref 0.27-4.2
+T4 1.6 ng/dL Ref 0.9-1.7",Thyroid Test
+"LFT Panel
+ALT 10 IU/L Ref 7-55
+AST 85 IU/L Ref 8-48
+Bilirubin Total 1.1 mg/dL Ref 0.3-1.0",Liver Function Test
+"Thyroid Function Test
+TSH 3.9 mIU/L 0.4-4.0
+Free T3 3.4 pg/mL 2.3-4.2
+Free T4 1.4 ng/dL 0.8-1.8",Thyroid Test
+"Clinical Note
+Chief Complaint: Headache for 3 days.
+History of Present Illness: Patient reports throbbing frontal headache.
+Physical Examination: Vitals stable, no focal neurological deficit.",Clinical Note
+"Thyroid Function Test
+TSH 7.2 mIU/L 0.4-4.0
+Free T3 3.8 pg/mL 2.3-4.2
+Free T4 1.3 ng/dL 0.8-1.8",Thyroid Test
+"Liver Function Test
+SGOT (AST) 33 U/L 10-40
+SGPT (ALT) 10 U/L 7-56
+Total Bilirubin 0.8 mg/dL 0.1-1.2
+Alkaline Phosphatase 136 U/L 44-147",Liver Function Test
+"Complete Blood Count
+Hemoglobin 16.3 g/dL 12.0-16.0
+WBC 8919 /uL 4000-11000
+Platelets 365200 /uL 150000-450000
+RBC 3.7 million/uL 4.2-5.4
+Hematocrit 38.6 % 36-46",CBC
+"Cholesterol Panel
+Cholesterol 203 mg/dL Ref <200
+HDL 46 mg/dL Ref >40
+LDL 176 mg/dL Ref <100
+Triglycerides 72 mg/dL Ref <150",Lipid Profile
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Kidney Function Test
+Creatinine 1.7 mg/dL 0.6-1.3
+Blood Urea Nitrogen 30 mg/dL 7-20
+Uric Acid 8.5 mg/dL 3.5-7.2
+eGFR 47 mL/min 90-120",Kidney Function Test
+"Cytology Report
+Fine needle aspiration cytology shows benign cellular pattern.",Pathology
+"Renal Panel
+Serum Creatinine 0.9 mg/dL Ref 0.7-1.3
+Urea 9 mg/dL Ref 15-40",Kidney Function Test
+"Histopathology Report
+Specimen: Biopsy tissue. Microscopic examination reveals benign findings. No malignancy identified.",Pathology
+"Discharge Summary
+Admitted for observation following minor procedure. Discharged on day 2, condition stable.",Discharge Summary
+"Thyroid Function Test
+TSH 6.6 mIU/L 0.4-4.0
+Free T3 1.8 pg/mL 2.3-4.2
+Free T4 1.7 ng/dL 0.8-1.8",Thyroid Test
+"Radiology Report
+Chest X-Ray: No active infiltrate. Cardiac silhouette normal. No pleural effusion.",Radiology
+"Cholesterol Panel
+Cholesterol 151 mg/dL Ref <200
+HDL 35 mg/dL Ref >40
+LDL 137 mg/dL Ref <100
+Triglycerides 245 mg/dL Ref <150",Lipid Profile
+"MRI Report
+MRI Brain: No acute intracranial abnormality. Ventricles normal in size.",Radiology

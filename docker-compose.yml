@@ -1,0 +1,95 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: medreports_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: meduser
+      POSTGRES_PASSWORD: medpassword
+      POSTGRES_DB: medreports
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U meduser -d medreports"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: medreports_redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: medreports_backend
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgresql://meduser:medpassword@postgres:5432/medreports
+      REDIS_URL: redis://redis:6379/0
+      JWT_SECRET: super-secret-production-jwt-key-min-32-chars
+      STORAGE_PROVIDER: local
+      UPLOAD_DIR: /app/storage/uploads
+      FRONTEND_URL: http://localhost:5173
+      LLM_PROVIDER: none
+    volumes:
+      - uploads_data:/app/storage/uploads
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: medreports_worker
+    restart: unless-stopped
+    command: celery -A app.workers.celery_app worker --loglevel=info --concurrency=2
+    environment:
+      DATABASE_URL: postgresql://meduser:medpassword@postgres:5432/medreports
+      REDIS_URL: redis://redis:6379/0
+      JWT_SECRET: super-secret-production-jwt-key-min-32-chars
+      STORAGE_PROVIDER: local
+      UPLOAD_DIR: /app/storage/uploads
+      LLM_PROVIDER: none
+    volumes:
+      - uploads_data:/app/storage/uploads
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      backend:
+        condition: service_started
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: medreports_frontend
+    restart: unless-stopped
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
+  uploads_data:

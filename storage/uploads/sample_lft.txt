@@ -1,0 +1,14 @@
+Patient ID: P3188
+Age: 35
+Gender: Female
+Date: 2026-08-10
+
+Liver Function Test (LFT)
+
+Total Bilirubin 0.8 mg/dL 0.2 - 1.2
+Direct Bilirubin 0.2 mg/dL 0.0 - 0.3
+SGOT (AST) 28 U/L 10 - 40
+SGPT (ALT) 32 U/L 7 - 56
+Alkaline Phosphatase 85 U/L 44 - 147
+Total Protein 7.1 g/dL 6.0 - 8.3
+Albumin 4.3 g/dL 3.5 - 5.0
