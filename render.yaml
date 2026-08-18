@@ -1,12 +1,27 @@
 services:
-  # Full-stack service: FastAPI backend + React frontend (100% Free)
+  # 1. React Frontend — Static Site (100% Free)
+  - type: web
+    name: xedlab-clinical-frontend
+    env: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_URL
+        value: https://xedlab-clinical-1.onrender.com/api
+
+  # 2. FastAPI Backend — Web Service (100% Free)
   - type: web
     name: xedlab-clinical-api
     env: python
     region: oregon
-    # Root of repo — build.sh handles both frontend & backend
-    buildCommand: chmod +x build.sh && ./build.sh
-    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /api/health
     envVars:
       - key: DATABASE_URL
@@ -17,5 +32,3 @@ services:
         value: none
       - key: STORAGE_PROVIDER
         value: local
-      - key: NODE_VERSION
-        value: "20"

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Read API URL from Vite environment variable with safe fallback
-const API_BASE_URL = import.meta.env.VITE_API_URL || "/api";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "https://xedlab-clinical-1.onrender.com/api";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
