@@ -1,6 +1,6 @@
 # AI Medical Report Analyzer
 
-[![CI Pipeline](https://github.com/your-org/ai-medical-report-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/ai-medical-report-analyzer/actions)
+[![CI Pipeline](https://github.com/ghkrknkp/XEDLAB-CLINICAL/actions/workflows/ci.yml/badge.svg)](https://github.com/ghkrknkp/XEDLAB-CLINICAL/actions)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/Frontend-React_18_%2B_Vite-61DAFB.svg?logo=react)](https://react.dev)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB.svg?logo=python)](https://python.org)
@@ -8,7 +8,14 @@
 [![Redis](https://img.shields.io/badge/Queue-Redis_%2B_Celery-DC382D.svg?logo=redis)](https://redis.io)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-An enterprise-grade, non-diagnostic AI document intelligence platform built for parsing, validating, and explaining complex medical laboratory reports. The system automatically processes PDF documents, scanned images (PNG, JPG), and plain-text laboratory reports via a 10-stage asynchronous background queue, deterministically compares values against printed reference ranges, generates patient-friendly explanations with OpenAI/Gemini (or a zero-hallucination deterministic fallback), and provides isolated RAG-based report Q&A with exact source page citations.
+## 🌐 Live Demo
+
+| Service | URL |
+|---|---|
+| **Frontend (React UI)** | [https://xedlab-clinical-2.onrender.com](https://xedlab-clinical-2.onrender.com) |
+| **Backend API** | [https://xedlab-clinical-1.onrender.com](https://xedlab-clinical-1.onrender.com) |
+| **API Docs (Swagger)** | [https://xedlab-clinical-1.onrender.com/docs](https://xedlab-clinical-1.onrender.com/docs) |
+| **Health Check** | [https://xedlab-clinical-1.onrender.com/api/health](https://xedlab-clinical-1.onrender.com/api/health) |
 
 ---
 
