@@ -1,5 +1,5 @@
 services:
-  # 1. React Frontend Static Site (100% Free - No Credit Card Needed)
+  # 1. React Frontend Static Site (100% Free)
   - type: web
     name: ai-medical-report-analyzer-frontend
     env: static
@@ -19,14 +19,12 @@ services:
           prefix: https://
           postfix: /api
 
-  # 2. FastAPI Web Backend (100% Free - No Credit Card Needed)
+  # 2. FastAPI Web Backend (Docker with Tesseract OCR - 100% Free)
   - type: web
     name: ai-medical-report-analyzer-api
-    env: python
+    env: docker
     region: oregon
-    rootDir: backend
-    buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    dockerfilePath: backend/Dockerfile
     healthCheckPath: /api/health
     envVars:
       - key: DATABASE_URL
