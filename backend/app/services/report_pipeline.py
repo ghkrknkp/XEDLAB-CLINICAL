@@ -189,20 +189,25 @@ def process_report_pipeline(report_id: str, job_id: str):
         # Stage 8: INDEXING (RAG Vector Index)
         # ----------------------------------------------------
         _update_job_stage(db, job, "INDEXING", 98)
-        chunks = chunk_pages(cleaned_pages)
-        if chunks:
-            chunk_texts = [c["text"] for c in chunks]
-            vectors = embed_texts(chunk_texts)
-            db.query(Embedding).filter(Embedding.report_id == report.id).delete()
-            for c, vec in zip(chunks, vectors):
-                db.add(Embedding(
-                    report_id=report.id,
-                    chunk_text=c["text"],
-                    embedding=json.dumps(vec.tolist()),
-                    page_number=c["page"],
-                    section_name=c.get("section", "General"),
-                ))
-            db.commit()
+        try:
+            chunks = chunk_pages(cleaned_pages)
+            if chunks:
+                chunk_texts = [c["text"] for c in chunks]
+                vectors = embed_texts(chunk_texts)
+                db.query(Embedding).filter(Embedding.report_id == report.id).delete()
+                for c, vec in zip(chunks, vectors):
+                    vec_serializable = vec.tolist() if hasattr(vec, "tolist") else list(vec)
+                    db.add(Embedding(
+                        report_id=report.id,
+                        chunk_text=c["text"],
+                        embedding=json.dumps(vec_serializable),
+                        page_number=c["page"],
+                        section_name=c.get("section", "General"),
+                    ))
+                db.commit()
+        except Exception as idx_err:
+            # Defensive: Indexing failure should never fail the entire report analysis
+            log_event("indexing_warning", report_id=report_id, job_id=job_id, error=str(idx_err))
 
         # ----------------------------------------------------
         # Stage 9: COMPLETED
