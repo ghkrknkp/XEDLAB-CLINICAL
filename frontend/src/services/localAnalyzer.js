@@ -60,66 +60,127 @@ function classifyReport(text) {
 // ─── Lab value extraction ───────────────────────────────────────────────────
 
 const UNITS = [
-  "g/dL", "mg/dL", "mmol/L", "µmol/L", "mEq/L", "U/L", "IU/L",
-  "mIU/L", "ng/mL", "pg/mL", "µg/dL", "million/uL", "cells/uL",
-  "/uL", "%", "mm/hr", "seconds", "10^3/uL", "10^6/uL", "fL",
-  "pg", "g/L", "mg/L",
+  "g/dL", "g/dl", "gm/dl", "gm%", "mg/dL", "mg/dl", "mmol/L", "µmol/L", "mEq/L", "U/L", "IU/L", "u/l",
+  "mIU/L", "ng/mL", "pg/mL", "µg/dL", "million/uL", "cells/uL", "/cumm", "cumm", "lakhs/cumm",
+  "/uL", "/ul", "%", "mm/hr", "seconds", "10^3/uL", "10^6/uL", "fL",
+  "pg", "g/L", "mg/L", "ratio",
 ];
 
 const UNIT_PATTERN = UNITS.map((u) => u.replace(/[.*+?^${}()|[\]\\\/]/g, "\\$&")).join("|");
 
+function cleanVal(v) {
+  if (!v) return null;
+  const n = parseFloat(v.replace(/,/g, "").trim());
+  return isNaN(n) ? null : n;
+}
+
 function extractLabValues(text) {
   const findings = [];
   const lines = text.split("\n");
+  const seen = new Set();
 
   for (let i = 0; i < lines.length; i++) {
-    const line = lines[i].trim();
-    if (!line || line.length < 4) continue;
+    let line = lines[i].trim();
+    if (!line || line.length < 3) continue;
+
+    // Normalize separators
+    line = line.replace(/[|\t]+/g, " ").replace(/\s{2,}/g, " ");
 
     const regex = new RegExp(
-      `^([A-Za-z][A-Za-z0-9 \\(\\)\\/\\-]{2,40})[:.]?\\s+` +
-      `(\\d+\\.?\\d*)\\s*` +
-      `(${UNIT_PATTERN})\\s*` +
-      `(?:[\\(\\[]?\\s*(\\d+\\.?\\d*)\\s*[-–to]+\\s*(\\d+\\.?\\d*)\\s*[\\)\\]]?)?`,
+      `^([A-Za-z][A-Za-z0-9 \\(\\)\\/\\-]{1,40})[:=\\-]?\\s+` +
+      `(\\d{1,3}(?:,\\d{3})*(?:\\.\\d+)?|\\d+(?:\\.\\d+)?)\\s*` +
+      `(${UNIT_PATTERN})?\\s*` +
+      `(?:[\\(\\[]?\\s*(?:ref\\.?(?:\\s*range)?\\s*[:\\-]?\\s*|normal\\s*[:\\-]?\\s*)?(\\d{1,3}(?:,\\d{3})*(?:\\.\\d+)?|\\d+(?:\\.\\d+)?)\\s*[-–to]+\\s*(\\d{1,3}(?:,\\d{3})*(?:\\.\\d+)?|\\d+(?:\\.\\d+)?)\\s*[\\)\\]]?)?`,
       "i"
     );
 
     const match = line.match(regex);
     if (match) {
-      const testName = match[1].trim().replace(/[:.]$/, "").trim();
-      const value = parseFloat(match[2]);
-      const unit = match[3];
-      let refLow = match[4] ? parseFloat(match[4]) : null;
-      let refHigh = match[5] ? parseFloat(match[5]) : null;
+      const testName = match[1].trim().replace(/[:.\-=]$/, "").trim();
+      const value = cleanVal(match[2]);
+      let unit = match[3] || null;
+      let refLow = cleanVal(match[4]);
+      let refHigh = cleanVal(match[5]);
 
-      if (refLow === null || refHigh === null) {
-        const known = KNOWN_RANGES[testName.toLowerCase()];
-        if (known) {
-          refLow = known.low;
-          refHigh = known.high;
-        }
+      if (value === null || testName.length < 2) continue;
+      if (["page", "reference", "range", "units", "result", "test name", "investigation", "observed value"].includes(testName.toLowerCase())) continue;
+
+      const lowerName = testName.toLowerCase();
+      if ((refLow === null || refHigh === null) && KNOWN_RANGES[lowerName]) {
+        refLow = KNOWN_RANGES[lowerName].low;
+        refHigh = KNOWN_RANGES[lowerName].high;
+        if (!unit) unit = KNOWN_RANGES[lowerName].unit;
       }
 
       let status = "not_classified";
-      if (refLow !== null && refHigh !== null && !isNaN(value)) {
+      if (refLow !== null && refHigh !== null && value !== null) {
         if (value < refLow) status = "below_reference_range";
         else if (value > refHigh) status = "above_reference_range";
         else status = "within_reference_range";
       }
 
-      findings.push({
-        test_name: testName,
-        value,
-        unit,
-        reference_low: refLow,
-        reference_high: refHigh,
-        reference_text: refLow !== null ? `${refLow}-${refHigh}` : null,
-        original_reference_text: refLow !== null ? `${refLow} - ${refHigh}` : null,
-        status,
-        confidence: refLow !== null ? 0.92 : 0.6,
-        page_number: 1,
-        source_text: line,
-      });
+      const key = `${lowerName}_${value}`;
+      if (!seen.has(key)) {
+        seen.add(key);
+        findings.push({
+          test_name: testName,
+          value,
+          unit,
+          reference_low: refLow,
+          reference_high: refHigh,
+          reference_text: refLow !== null && refHigh !== null ? `${refLow} - ${refHigh}` : null,
+          original_reference_text: refLow !== null && refHigh !== null ? `${refLow} - ${refHigh}` : null,
+          status,
+          confidence: refLow !== null ? 0.94 : 0.75,
+          page_number: 1,
+          source_text: line,
+        });
+      }
+      continue;
+    }
+
+    // Secondary scan against known medical tests
+    for (const [kName, kInfo] of Object.entries(KNOWN_RANGES)) {
+      if (line.toLowerCase().includes(kName)) {
+        const nums = line.match(/\b\d{1,3}(?:,\d{3})*(?:\.\d+)?|\b\d+(?:\.\d+)?/g);
+        if (nums && nums.length > 0) {
+          const val = cleanVal(nums[0]);
+          if (val !== null && val > 0) {
+            let rL = kInfo.low;
+            let rH = kInfo.high;
+            if (nums.length >= 3) {
+              const l = cleanVal(nums[1]);
+              const h = cleanVal(nums[2]);
+              if (l !== null && h !== null && l < h) {
+                rL = l;
+                rH = h;
+              }
+            }
+            let st = "not_classified";
+            if (val < rL) st = "below_reference_range";
+            else if (val > rH) st = "above_reference_range";
+            else st = "within_reference_range";
+
+            const k = `${kName}_${val}`;
+            if (!seen.has(k)) {
+              seen.add(k);
+              findings.push({
+                test_name: kName.charAt(0).toUpperCase() + kName.slice(1),
+                value: val,
+                unit: kInfo.unit,
+                reference_low: rL,
+                reference_high: rH,
+                reference_text: `${rL} - ${rH}`,
+                original_reference_text: `${rL} - ${rH}`,
+                status: st,
+                confidence: 0.9,
+                page_number: 1,
+                source_text: line,
+              });
+            }
+          }
+        }
+      }
     }
   }
 
