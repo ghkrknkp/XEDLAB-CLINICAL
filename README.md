@@ -12,6 +12,8 @@
 
 [![Watch Demo Video](https://img.shields.io/badge/Loom-Watch_Demo_Video-5551FF?logo=loom&logoColor=white)](https://www.loom.com/share/119bde0e1db44b67a0cfcd605f14e7f8)
 
+Rendor depolyment link: https://xedlab-clinical-2.onrender.com
+
 - 🔗 **Loom Video Walkthrough:** [https://www.loom.com/share/119bde0e1db44b67a0cfcd605f14e7f8](https://www.loom.com/share/119bde0e1db44b67a0cfcd605f14e7f8)
 
 
